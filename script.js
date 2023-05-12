@@ -25,6 +25,8 @@ function updateRollHistory() {
   }
 }
 
+
+
 function getDiceFace(rollResult) {
   switch (rollResult) {
     case 1:
@@ -43,6 +45,7 @@ function getDiceFace(rollResult) {
       return "";
   }
 }
+
 
 buttonEl.addEventListener("click", () => {
   diceEl.classList.add("roll-animation");
