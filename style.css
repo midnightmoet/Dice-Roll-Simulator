@@ -1,12 +1,14 @@
 body {
-    font-family: Arial, Helvetica, sans-serif;
+    font-family: "Open Sans", sans-serif;
+    text-align: center;
     background: white;
-    color: #ffffff;
-    margin: 0;
-    padding: 0;
+    color: black;
+    margin: 0px;
+    padding: 0px;
 }
 
-header {
+header{
+    font-size: 1rem;
     background: #000000;
     color: #ffffff;
     text-align: center;
@@ -15,6 +17,38 @@ header {
     border-bottom: #ffffff 3px solid;
 }
 
+.dice {
+    font-size: 7rem;
+    width: 80%;
+    max-width: 150px;
+    margin: 10px auto;
+    padding: 10px;
+    border: #000000 3px solid;
+    box-shadow: 0px 0px 10px #000000;
+    border-radius: 10px;
+    background: #ffffff;
+}
+
+#roll-history {
+    list-style: none;
+}
+
+button {
+    font-size: 1rem;
+    background: #000000;
+    border: none;
+    color: #ffffff;
+    border-radius: 1rem;
+    padding: 1rem 2rem;
+    margin: 2rem 2rem;
+    cursor: pointer;
+    transition: background 0.3s ease-in-out;
+}
+
+button:hover {
+    background: limegreen;
+    color: white;
+}
 
 /* FOOTER I CAN USE AS A STAPLE ON FUTURE PROJECTS */
 .footer {
