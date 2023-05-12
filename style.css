@@ -1,0 +1,42 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    background: white;
+    color: #ffffff;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background: #000000;
+    color: #ffffff;
+    text-align: center;
+    padding-top: 10px;
+    min-height: 70px;
+    border-bottom: #ffffff 3px solid;
+}
+
+
+/* FOOTER I CAN USE AS A STAPLE ON FUTURE PROJECTS */
+.footer {
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background-color: #000000;
+    color: white;
+    text-align: center;
+}
+
+.footer a {
+    color: #ffffff;
+    text-decoration: none;
+}
+
+.footer .heart {
+    color: red;
+}
+
+.footer a:hover {
+    color: magenta;
+    text-decoration: underline;
+}
